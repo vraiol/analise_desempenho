@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Função de partição para o Quick Sort
+// FunÃ§Ã£o de partiÃ§Ã£o para o Quick Sort
 int partition(int arr[], int low, int high) {
     int pivot = arr[high];
     int i = low - 1;
@@ -17,7 +17,7 @@ int partition(int arr[], int low, int high) {
         }
     }
 
-    // Troca arr[i + 1] e arr[high]
+    // Troca os array
     int temp = arr[i + 1];
     arr[i + 1] = arr[high];
     arr[high] = temp;
@@ -25,13 +25,13 @@ int partition(int arr[], int low, int high) {
     return i + 1;
 }
 
-// Função principal do Quick Sort
+// FunÃ§Ã£o principal 
 void quickSort(int arr[], int low, int high) {
     if (low < high) {
-        // Encontra o índice de partição
+        // Encontra o Ã­ndice de partiÃ§Ã£o
         int pi = partition(arr, low, high);
 
-        // Recursivamente ordena as sub-listas antes e depois da partição
+        // Recursivamente ordena as sub-listas antes e depois da partiÃ§Ã£o
         quickSort(arr, low, pi - 1);
         quickSort(arr, pi + 1, high);
     }
@@ -49,37 +49,35 @@ int main() {
         return 1;
     }
 
-    // Lê os dados do arquivo e conta o número de elementos
+    // LÃª os dados do arquivo e conta o nÃºmero de elementos
     int value, count = 0;
     while (fscanf(inputFile, "%d", &value) == 1) {
         count++;
     }
 
-    // Reposiciona o ponteiro do arquivo para o início
+    // Reposiciona o ponteiro do arquivo para o inÃ­cio
     fseek(inputFile, 0, SEEK_SET);
 
-    // Aloca memória para armazenar os dados
+    // coloca memÃ³ria para armazenar os dados
     int *data = malloc(count * sizeof(int));
 
-    // Lê os dados do arquivo e armazena no array
+    // LÃª os dados do arquivo e armazena no array
     for (a = 0; a < count; a++) {
         fscanf(inputFile, "%d", &data[a]);
     }
-
-    // Fecha o arquivo de entrada
     fclose(inputFile);
 
-    // Chama a função Quick Sort para ordenar os dados
+    // Chama a funÃ§Ã£o para ordenar os dados
     quickSort(data, 0, count - 1);
 
-    // Imprime os dados ordenados
+    // Imprime os dados 
     printf("Dados ordenados:\n");
     for (a = 0; a < count; a++) {
         printf("%d ", data[a]);
     }
     printf("\n");
 
-    // Libera a memória alocada
+    // Libera a memÃ³ria alocada
     free(data);
 
     return 0;
