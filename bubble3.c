@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Função para realizar o Bubble Sort
+// FunÃ§Ã£o principal 
 void bubbleSort(int arr[], int n) 
 {
 	int i, j;
@@ -34,19 +34,19 @@ int main() {
     }
     
 
-    // Lê os dados do arquivo e conta o número de elementos
+    // LÃª os dados do arquivo e conta o nÃºmero de elementos
     int value, count = 0;
     while (fscanf(inputFile, "%d", &value) == 1) {
         count++;
     }
 
-    // Reposiciona o ponteiro do arquivo para o início
+    // Reposiciona o ponteiro do arquivo para o inÃ­cio
     fseek(inputFile, 0, SEEK_SET);
 
-    // Aloca memória para armazenar os dados
+    // coloca memÃ³ria para armazenar os dados
     int *data = malloc(count * sizeof(int));
 
-    // Lê os dados do arquivo e armazena no array
+    // LÃª os dados do arquivo e armazena no array
     for ( a = 0; a < count; a++) {
         fscanf(inputFile, "%d", &data[a]);
     }
@@ -54,13 +54,12 @@ int main() {
     // Fecha o arquivo de entrada
     fclose(inputFile);
 
-    // Chama a função Bubble Sort para ordenar os dados
+    // Chama a funÃ§Ã£o para ordenar os dados
     bubbleSort(data, count);
 	for ( a = 0; a < count; a++) {
         printf("%d ", data[a]);
     }
 
-    // Libera a memória alocada
     free(data);
 
     return 0;
