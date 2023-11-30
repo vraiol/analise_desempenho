@@ -54,7 +54,7 @@ try:
     significancia = 0.05
 
     if p_value < significancia:
-        print("Rejeitamos a hipótese nula")
+        print("Rejeitamos a hipótese nula, isso sugere que há evidências estatísticas suficientes para afirmar que há uma diferença significativa entre os tempos de execução dos algoritmos.")
 
         # Calcula o intervalo de confiança para a média de dados_algoritmo1
         mean_ci_algoritmo1 = np.percentile(dados_algoritmo1, [2.5, 97.5])
@@ -66,7 +66,7 @@ try:
         print(f"Intervalo de Confiança para {algoritmo2}: {mean_ci_algoritmo2}")
 
     else:
-        print("Não rejeitamos a hipótese nula")
+        print("Não rejeitamos a hipótese nula, indicando que não há evidências suficientes para afirmar que há uma diferença significativa.")
 
 except Exception as e:
     print(f"Erro ao executar a consulta: {e}")
