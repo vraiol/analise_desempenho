@@ -1,6 +1,6 @@
   CREATE TABLE resultados(
   id SERIAL PRIMARY KEY,
-  temp_exec NUMERIC NOT NULL,
+  temp_exec INT NOT NULL,
   alg_orden VARCHAR(50),
   tam_dados INT NOT NULL
   );
@@ -581,11 +581,11 @@
 
 
 
-    -- Inserindo registros na tabela Result_Hard para o hardware de ID 1
+   	-- Inserindo registros na tabela resultados_hardware para o hardware de ID 1
 	INSERT INTO resultados_hardware (resultados_id, hardware_id)
 	SELECT id, 1 FROM resultados WHERE id BETWEEN 1 AND 90;
 
-	-- Inserindo registros na tabela Result_Hard para o hardware de ID 2
+	-- Inserindo registros na tabela resultados_hardware para o hardware de ID 2
 	INSERT INTO resultados_hardware (resultados_id, hardware_id)
 	SELECT id, 2 FROM resultados WHERE id BETWEEN 91 AND 182;
 
