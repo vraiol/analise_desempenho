@@ -1,23 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// FunÁ„o para mesclar duas sub-listas de arr[]
+// Fun√ß√£o para mesclar duas sub-listas de 
 void merge(int arr[], int l, int m, int r) {
 	
     int i, j, k;
     int n1 = m - l + 1;
     int n2 = r - m;
 
-    // Cria arrays tempor·rios
+    // Cria arrays tempor√°rios
     int L[n1], R[n2];
 
-    // Copia os dados para os arrays tempor·rios L[] e R[]
+    // Copia os dados para os arrays tempor√°rios
     for (i = 0; i < n1; i++)
         L[i] = arr[l + i];
     for (j = 0; j < n2; j++)
         R[j] = arr[m + 1 + j];
 
-    // Mescla os arrays tempor·rios de volta para arr[l..r]
+    // Mescla os arrays tempor√°rios de volta para arr[l..r]
     i = 0;
     j = 0;
     k = l;
@@ -47,10 +47,10 @@ void merge(int arr[], int l, int m, int r) {
     }
 }
 
-// FunÁ„o principal do Merge Sort
+// Fun√ß√£o principal 
 void mergeSort(int arr[], int l, int r) {
     if (l < r) {
-        // Encontra o ponto mÈdio
+        // Encontra o ponto m√©dio
         int m = l + (r - l) / 2;
 
         // Recursivamente ordena as sub-listas
@@ -64,7 +64,6 @@ void mergeSort(int arr[], int l, int r) {
 
 int main() {
 	int a;
-    // Nome do arquivo a ser lido
     const char* inputFilename = "dados1.txt";
 
     FILE *inputFile = fopen(inputFilename, "r");
@@ -74,19 +73,19 @@ int main() {
         return 1;
     }
 
-    // LÍ os dados do arquivo e conta o n˙mero de elementos
+    // L√™ os dados do arquivo e conta o n√∫mero de elementos
     int value, count = 0;
     while (fscanf(inputFile, "%d", &value) == 1) {
         count++;
     }
 
-    // Reposiciona o ponteiro do arquivo para o inÌcio
+    // Reposiciona o ponteiro do arquivo para o in√≠cio
     fseek(inputFile, 0, SEEK_SET);
 
-    // Aloca memÛria para armazenar os dados
+    // coloca mem√≥ria para armazenar os dados
     int *data = malloc(count * sizeof(int));
 
-    // LÍ os dados do arquivo e armazena no array
+    // L√™ os dados do arquivo e armazena no array
     for (a = 0; a < count; a++) {
         fscanf(inputFile, "%d", &data[a]);
     }
@@ -94,7 +93,7 @@ int main() {
     // Fecha o arquivo de entrada
     fclose(inputFile);
 
-    // Chama a funÁ„o Merge Sort para ordenar os dados
+    // Chama a fun√ß√£o  para ordenar os dados
     mergeSort(data, 0, count - 1);
 
     // Imprime os dados ordenados
@@ -104,7 +103,7 @@ int main() {
     }
     printf("\n");
 
-    // Libera a memÛria alocada
+    // Libera a mem√≥ria 
     free(data);
 
     return 0;
