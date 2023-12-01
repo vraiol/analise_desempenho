@@ -12,6 +12,9 @@ Após as análises realizadas sobre os algoritimos de ordenação, foi possível
 
 Nessa primeira imagem é válido ressaltar as estatísticas descritivas como média, mediana, desvio padrão e a quantidade de testes feitos dos tempos de execução de cada algoritmo de ordenação e cada tamanho de amostra.
 
+![image](https://github.com/vraiol/analise_desempenho/assets/102372775/f30e4f37-7d3e-452c-8adf-e7f1dd3528f3)
+
+Como pode-se observar, após o comparativo entre os dois algoritmos, a hipótese nula foi rejeitada, pois isso sugere que existe evidências que provam uma discrepância entre os tempos de execução dos dois algoritmos analisados, logo após isso foi feito o intervalo de confiança mostrando que mostra justamente a discrepância entre os tempos de execução por conta do tamanho de amostras analisadas.
 
 
 Colaboradores: Tiago Costa, Vinícius Raiol
