@@ -4,8 +4,4 @@ Este projeto consiste na execução de uma análise estatística meticulosa com 
 
 
 
-
-
-
-
 Colaboradores: Tiago Costa, Vinícius Raiol
