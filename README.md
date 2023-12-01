@@ -20,6 +20,9 @@ Como pode-se observar, após o comparativo entre os dois algoritmos, a hipótese
 
 Como evidenciado pela comparação entre os dois algoritmos, a hipótese nula foi descartada. Isso indica a presença de evidências que indicam uma disparidade nos tempos de execução dos algoritmos analisados. Posteriormente, procedeu-se à construção de um intervalo de confiança, o qual destaca precisamente a discrepância nos tempos de execução decorrente do tamanho das amostras analisadas.
 
+![image](https://github.com/vraiol/analise_desempenho/assets/102372775/18d0fac2-0124-42bd-a227-bdc1457049bd)
 
-
-Colaboradores: Tiago Costa, Vinícius Raiol
+Nesse caso de comparação do quick sort com o merge sort, a hipótese nula foi aceita, pois sugere que existe um equilíbrio ( que assume que não há efeito, não há diferença) entre os dois algoritmos, logo torna-se um caso padrão.
+                              
+                                       
+Colaboradores: Tiago Costa Harrop Medeiros, Vinícius Eduardo Pereira Raiol.
