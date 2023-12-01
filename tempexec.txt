@@ -1,0 +1,119 @@
+informações do PC:
+- PROCESSADOR: Intel(R) Core(TM) i5-10500 CPU @ 3.10GHz   3.10 GHz 
+- MEMORIA 16,0 GB DDR4 DUAL CHANNEL
+- SISTEMA OPERACIONAL: Windows 10 Pro
+- ARMAZENAMENTO: 250GB SSD e 500GB HDD
+
+TEMPOS DE EXECUÇÃO:
+
+bubble sort:
+10000 dados: 0.7325 segundos
+10000 dados: 0.7339 segundos
+10000 dados: 0.7471 segundos
+10000 dados: 0.8724 segundos
+10000 dados: 0.7582 segundos
+10000 dados: 0.7607 segundos
+10000 dados: 0.7538 segundos
+10000 dados: 0.7389 segundos
+10000 dados: 0.7725 segundos
+10000 dados: 0.7423 segundos
+
+
+1000 dados: 0.1632 segundos
+1000 dados: 0.1995 segundos
+1000 dados: 0.1814 segundos
+1000 dados: 0.1754 segundos
+1000 dados: 0.1782 segundos
+1000 dados: 0.1859 segundos
+1000 dados: 0.1818 segundos
+1000 dados: 0.1809 segundos
+1000 dados: 0.1808 segundos
+1000 dados: 0.1938 segundos
+
+
+
+100 dados: 0.1281 segundos
+100 dados: 0.1604 segundos
+100 dados: 0.1436 segundos
+100 dados: 0.1637 segundos
+100 dados: 0.1429 segundos
+100 dados: 0.1462 segundos
+100 dados: 0.1428 segundos
+100 dados: 0.1445 segundos
+100 dados: 0.1606 segundos
+100 dados: 0.1393 segundos
+
+
+merge sort:
+10000 dados: 0.5694 segundos
+10000 dados: 0.5606 segundos
+10000 dados: 0.5844 segundos
+10000 dados: 0.5553 segundos
+10000 dados: 0.6368 segundos
+10000 dados: 0.5653 segundos
+10000 dados: 0.5764 segundos
+10000 dados: 0.6058 segundos
+10000 dados: 0.6775 segundos
+10000 dados: 0.5706 segundos
+
+
+1000 dados: 0.1616 segundos
+1000 dados: 0.1737 segundos
+1000 dados: 0.1931 segundos
+1000 dados: 0.1778 segundos
+1000 dados: 0.1754 segundos
+1000 dados: 0.1811 segundos
+1000 dados: 0.1803 segundos
+1000 dados: 0.1843 segundos
+1000 dados: 0.1816 segundos
+1000 dados: 0.1954 segundos
+
+
+100 dados: 0.1345 segundos
+100 dados: 0.1392 segundos
+100 dados: 0.1419 segundos
+100 dados: 0.1362 segundos
+100 dados: 0.1468 segundos
+100 dados: 0.1625 segundos
+100 dados: 0.1439 segundos
+100 dados: 0.1458 segundos
+100 dados: 0.1474 segundos
+100 dados: 0.1467 segundos
+
+
+quick sort:
+10000 dados: 0.5544 segundos
+10000 dados: 0.6082 segundos
+10000 dados: 0.5581 segundos
+10000 dados: 0.6061 segundos
+10000 dados: 0.5661 segundos
+10000 dados: 0.5722 segundos
+10000 dados: 0.5769 segundos
+10000 dados: 0.5812 segundos
+10000 dados: 0.5809 segundos
+10000 dados: 0.5662 segundos
+
+
+
+1000 dados: 0.1856 segundos
+1000 dados: 0.1714 segundos
+1000 dados: 0.1728 segundos
+1000 dados: 0.1795 segundos
+1000 dados: 0.1727 segundos
+1000 dados: 0.1878 segundos
+1000 dados: 0.2311 segundos
+1000 dados: 0.1774 segundos
+1000 dados: 0.183  segundos
+1000 dados: 0.1848 segundos
+
+
+100 dados: 0.1373 segundos
+100 dados: 0.1453 segundos
+100 dados: 0.1336 segundos
+100 dados: 0.1382 segundos
+100 dados: 0.1503 segundos
+100 dados: 0.1547 segundos
+100 dados: 0.1596 segundos
+100 dados: 0.1453 segundos
+100 dados: 0.1671 segundos
+100 dados: 0.1467 segundos
