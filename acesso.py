@@ -27,7 +27,6 @@ except Exception as e:
     print(f"Erro ao conectar ao banco de dados: {e}")
     exit()
 
-# Cria um cursor para executar consultas SQL
 cursor = connection.cursor()
 
 
