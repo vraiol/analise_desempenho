@@ -16,5 +16,10 @@ Nessa primeira imagem é válido ressaltar as estatísticas descritivas como mé
 
 Como pode-se observar, após o comparativo entre os dois algoritmos, a hipótese nula foi rejeitada, pois isso sugere que existe evidências que provam uma discrepância entre os tempos de execução dos dois algoritmos analisados, logo após isso foi feito o intervalo de confiança mostrando que mostra justamente a discrepância entre os tempos de execução por conta do tamanho de amostras analisadas.
 
+![image](https://github.com/vraiol/analise_desempenho/assets/102372775/c7ad5a98-fbfb-4d3c-9644-35ba59ddd97a)
+
+Como evidenciado pela comparação entre os dois algoritmos, a hipótese nula foi descartada. Isso indica a presença de evidências que indicam uma disparidade nos tempos de execução dos algoritmos analisados. Posteriormente, procedeu-se à construção de um intervalo de confiança, o qual destaca precisamente a discrepância nos tempos de execução decorrente do tamanho das amostras analisadas.
+
+
 
 Colaboradores: Tiago Costa, Vinícius Raiol
