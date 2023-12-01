@@ -8,16 +8,16 @@ Sort) em linguagem C.
 2. Coletar dados de desempenho dos algoritmos para diferentes tamanhos de
 amostra e perfis de hardware.
 
-4. Armazenar os dados coletados em um banco de dados para posterior
+3. Armazenar os dados coletados em um banco de dados para posterior
 análise.
 
-6. Utilizar técnicas de estatística descritiva para resumir os dados e identificar
+4. Utilizar técnicas de estatística descritiva para resumir os dados e identificar
 tendências.
 
-8. Realizar testes de hipótese para comparar o desempenho dos algoritmos e
+5. Realizar testes de hipótese para comparar o desempenho dos algoritmos e
 determinar se existem diferenças significativas.
 
-10. Calcular intervalos de confiança para avaliar a precisão das medições.
+6. Calcular intervalos de confiança para avaliar a precisão das medições.
 
 
 
